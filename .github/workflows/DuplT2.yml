@@ -17,7 +17,7 @@ jobs:
         cmd /c md "C:\1Twitch"
     - name: Descarga Ejecut
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/cremans/AutoTwi/main/DuplTwiT2.py -OutFile "C:\1Twitch\DuplTwiT2.py"
+        Invoke-WebRequest https://raw.githubusercontent.com/cremans/AutoTwiT2/main/DuplTwiT2.py -OutFile "C:\1Twitch\DuplTwiT2.py"
         Invoke-WebRequest https://raw.githubusercontent.com/cremans/AutoTwi/main/WinRAR.exe -OutFile "C:\1Twitch\WinRAR.exe"
         Invoke-WebRequest https://raw.githubusercontent.com/cremans/AutoTwi/main/ffmpeg.rar -OutFile "C:\1Twitch\ffmpeg.rar"
     - name: Descomprimir Conver Video
