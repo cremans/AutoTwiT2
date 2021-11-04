@@ -280,5 +280,7 @@ def main(vodID):
         os.system('winrar.exe a -afrar -df -m5 -mt3 -ri15 -t -tk -ts -v14g "' + nom_vid +
                   '.rar" "' + nom_vid + '.mp4"')
 
-main("1134954400")
-main("1135436993")
+main("1139775683")
+main("1140969289")
+main("1142822691")
+main("1139923516")
